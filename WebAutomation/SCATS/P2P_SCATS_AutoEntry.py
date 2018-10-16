@@ -41,7 +41,7 @@ row = 2
 while(sheet.cell_value(row,1).upper() != 'END'):
     #Create Activity
     driver.find_element_by_class_name('ui-widget-content').click()
-
+    
     #Find element
     activity= driver.find_element_by_id('P29_ACTIVITY_ID')
     act_date = web_control.DateChange(dt.strptime('2018/08/28','%Y/%m/%d').strftime('%Y/%m/%d'))
