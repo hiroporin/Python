@@ -1,0 +1,9 @@
+Failed : Oracle Cloud Account Page : Can't open Oracle Cloud Account Page
+Succeed: Oracle Cloud Account Page
+Succeed: Oracle Cloud Login Page
+2018/08/27 13:17:44Succeed: Oracle Cloud Account Page
+Succeed: Oracle Cloud Login Page
+2018/08/31 18:18:31Succeed: Oracle Cloud Account Page
+2018/08/31 18:18:32Succeed: Oracle Cloud Login Page
+2018/08/31 18:19:03Succeed: Oracle Cloud Account Page
+2018/08/31 18:19:04Succeed: Oracle Cloud Login Page
