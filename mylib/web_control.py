@@ -15,7 +15,8 @@ def set_driver():
     #path  = os.getcwd()[:3] + r'Software\Tools\selenium\MicrosoftWebDriver\MicrosoftWebDriver.exe'
     
     # Initial Cchromedriver
-    driver = webdriver.Chrome(path)
+    driver = webdriver.Chrome()
+    #driver = webdriver.Chrome(path)
     #driver = webdriver.Edge(path)
 
     return driver

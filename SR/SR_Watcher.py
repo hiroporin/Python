@@ -14,7 +14,8 @@ Created on Mon Jul  9 13:49:11 2018
 
 # Initial mylib
 import os
-import sys; sys.path.append(os.getcwd()[:3] + r'Appli\Python\mylib')
+#import sys; sys.path.append(os.getcwd()[:3] + r'Appli\Python\mylib')
+import sys; sys.path.append('Python/mylib')
 import web_control
 import xlrd
 
