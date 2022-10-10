@@ -36,8 +36,8 @@ driver.get('https://mosemp.us.oracle.com/mosspui/src/sr/viewer/index.html#/' + s
 # Input ID/PW and Login
 mail = driver.find_element_by_id('sso_username')
 pass_wd = driver.find_element_by_id('ssopassword')# emailを入力
-mail.send_keys('hiroshi.ota@oracle.com')
-pass_wd.send_keys('Qt4myoFE')
+mail.send_keys('')
+pass_wd.send_keys('')
 pass_wd.submit()
 
 # Open SRs
