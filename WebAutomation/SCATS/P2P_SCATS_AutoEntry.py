@@ -25,8 +25,8 @@ driver.get('https://apex.oraclecorp.com/pls/apex/f?p=27260:1:1736970256711:::::'
 # Input ID/PW and Login
 mail = driver.find_element_by_id('sso_username')
 pass_wd = driver.find_element_by_id('ssopassword')# emailを入力
-mail.send_keys('hiroshi.ota@oracle.com')
-pass_wd.send_keys('Qt4myoFE')
+mail.send_keys('')
+pass_wd.send_keys('')
 pass_wd.submit()
 
 # Open Cloud Engagement List
