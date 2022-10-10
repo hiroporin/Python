@@ -25,8 +25,8 @@ driver.get('https://apex.oraclecorp.com/pls/apex/f?p=27260:1:1736970256711:::::'
 WebDriverWait(driver, 1000).until(EC.presence_of_element_located((By.ID, 'sso_username')))
 mail = driver.find_element_by_id('sso_username')
 pass_wd = driver.find_element_by_id('ssopassword')# emailを入力
-mail.send_keys('hiroshi.ota@oracle.com')
-pass_wd.send_keys('Qt4myoFE')
+mail.send_keys('')
+pass_wd.send_keys('')
 pass_wd.submit()
 
 # Open Cloud Engagement List
