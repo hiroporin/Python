@@ -28,7 +28,7 @@ winno = 0
 
 #Load excel file
 wb = xlrd.open_workbook('./SR_List.xlsx')
-sheet = wb.sheet_by_name('NEC AI Platform')
+sheet = wb.sheet_by_name('')
 
 # Login SR site
 driver.get('https://mosemp.us.oracle.com/mosspui/src/sr/viewer/index.html#/' + sheet.cell_value(row,1))
